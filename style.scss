@@ -1,0 +1,25 @@
+body {
+    background: rgb(228, 191, 191)
+}
+article {
+    margin-top: 100px;
+    section {
+       // justify-content: center;
+        #nav-column #list-example > a{
+            //text-align: center
+            color: blue;
+            #list-example a:focus {
+                color: white
+            }
+        }
+        #Demo {
+            height: 200px;
+            background: rgb(236, 54, 54);
+        }
+        #content-column .row label textarea a {
+            width: 100%;
+            background-color: aqua;
+            color: blue
+        }
+    }
+}
